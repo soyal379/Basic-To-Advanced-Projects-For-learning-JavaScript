@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242, 238, 234);
+}
+
+.container {
+    width: 45%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.container .heading {
+    width: 90%;
+    text-align: center;
+}
+
+.container .btn {
+    width: 100%;
+    text-align: center;
+}
+
+.container .btn button {
+    background-color: rgb(95, 93, 91);
+    color: white;
+    border: none;
+    width: 50%;
+    padding: 20px 10px;
+    font-size: x-large;
+    font-weight: bolder;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.container .btn button:hover {
+    background-color: rgb(95, 93, 91, 0.8);
+}
+
+.container .btn button:active {
+    background-color: rgb(95, 93, 91, 0.6);
+    transform: translateY(-10px) scale(1.05);
+
+}
+
+.container .joke-section {
+    margin: 20px;
+    height: 180px;
+    width: 90%;
+    background-color: rgb(95, 93, 91);
+    border-radius: 12px;
+    color: white;
+    font-size: larger;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container .joke-section p {
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+        height: 80%;
+    }
+
+    .container .btn button {
+        width: 80%;
+        font-size: large;
+    }
+
+    .container .joke-section {
+        height: 150px;
+    }
+
+    .container .joke-section p {
+        font-size: medium;
+    }
+    .container .heading h1{
+        font-size: 1.8em;
+    }
+}
