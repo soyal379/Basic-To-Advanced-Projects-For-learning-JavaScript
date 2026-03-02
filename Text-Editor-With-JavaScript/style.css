@@ -3,3 +3,83 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: blue;
+}
+
+.container{
+    width: 85vw;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 30px;
+    box-shadow: 10px 10px 50px  rgba(0, 0, 0, 0.2);
+}
+
+.tool-Baar{
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px;
+    align-items: center;
+}
+
+.tool-Baar button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #020929;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+select{
+    padding: 5px;
+    border: 1px solid #020929;
+    border-radius: 5px;
+}
+
+.tool-Baar label,
+.tool-Baar select{
+    font-family: poppins, sans-serif;
+}
+
+.input-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+input{
+    padding: 2px;
+}
+
+input[type="color"]{
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    width: 40px;
+    height: 28px;
+    cursor: pointer;
+}
+
+input[type="color"]::-webkit-color-swatch{
+    border-radius: 15px;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 3px #020929;
+}
+
+#text-input{
+    padding: 20px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    height: 50vh;
+}
+
+.active{
+    background-color: #abc3ff !important;
+    transition: all 0.3s ease;
+}
