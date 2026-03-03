@@ -43,6 +43,34 @@ const initializer = () => {
 }
 
 
+const modfyText = (command, defoultUi, value)=>{
+    document.execCommand(command, defoultUi, value)
+}
+
+optionBtn.forEach((button)=>{
+    button.addEventListener("click", ()=>{
+        modfyText(button.id, false, null)
+    })
+})
+
+advOptionBtn.forEach((button)=>{
+    button.addEventListener("change", ()=>{
+        modfyText(button.id, false, button.value)
+    })
+})
+
+linkBtn.addEventListener("click", ()=>{
+    let userLink = prompt("Enter Link URL")
+
+    if(/http/i.test(userLink)){
+        modfyText(linkBtn.id, false, userLink)
+    } else {
+        userLink = "http://" + userLink
+        modfyText(linkBtn.id, false, userLink)
+    }
+})
+
+
 const highlighter = (className, needsRemoval)=>{
     className.forEach((button)=>{
         button.addEventListener("click", ()=>{
