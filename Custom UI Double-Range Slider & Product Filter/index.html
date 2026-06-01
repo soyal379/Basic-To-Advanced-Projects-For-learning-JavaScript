@@ -13,6 +13,13 @@
         <p>Smart double-Range Slider * debounced search & category Filter</p>
       </div>
 
+
+      <div class="error-cont" id="errorAlert">
+        <span id="error-message">Api called faild.</span>
+        <button id="retryBtn" class="retry-btn">Retry Fetch</button>
+      </div>
+
+
       <div class="filter-card">
         <div class="search-wrapper">
           <div class="search-label">
@@ -56,7 +63,7 @@
 
         <div class="category-wrapper">
           <div class="cat-label">📂 Filter by category</div>
-          <div class="category-buttons"></div>
+          <div class="category-buttons" id="categoryContainer"></div>
         </div>
 
         <div class="reset-filters">
@@ -73,9 +80,13 @@
         </div>
       </div>
 
+
+      <!-- async loader -->
+      <div id="loadingError" class="error-loader"> Loading Product Database...  Please wait...</div>
+
       <div class="product-grid" id="productGrid"></div>
     </div>
 
-    <!-- <script src="script.js"></script> -->
+    <script src="script.js"></script>
   </body>
 </html>

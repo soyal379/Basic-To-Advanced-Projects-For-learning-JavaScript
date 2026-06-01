@@ -30,10 +30,32 @@ body {
     letter-spacing: -0.3px;
 }
 
-.shop-head p {
+.app-cont .shop-head p {
     color: #4a627a;
     margin-top: 0.4rem;
 }
+
+
+.app-cont .error-cont{
+    display: none;
+    background-color: rgba(239, 68, 68, 0.3);
+    border: 1px solid #ef4444;
+    color: #ef4444;
+    padding: 1rem;
+    border-radius: 6px;margin-bottom: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app-cont .error-cont .retry-btn{
+    background-color: #ef4444;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
 
 .app-cont .filter-card {
     background: rgba(255, 255, 255, 0.85);
@@ -157,13 +179,14 @@ body {
     font-size: 0.9rem;
 }
 
-.app-cont .filter-card .category-wrapper .cat-label .category-buttons {
+.app-cont .filter-card .category-wrapper .category-buttons {
     display: flex;
     flex-wrap: wrap;
     gap: 0.6rem;
+    /* border: 2px solid; */
 }
 
-.app-cont .filter-card .category-wrapper .cat-label .category-buttons .cat-btn {
+.app-cont .filter-card .category-wrapper .category-buttons .cat-btn {
     background: #f0f4f9;
     border: none;
     padding: 0.5rem 1.2rem;
@@ -176,13 +199,13 @@ body {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
 }
 
-.app-cont .filter-card .category-wrapper .cat-label .category-buttons .cat-btn.active {
+.app-cont .filter-card .category-wrapper .category-buttons .cat-btn.active {
     background: #1f4a6e;
     color: white;
     box-shadow: 0 6px 12px -6px rgba(31, 74, 110, 0.3);
 }
 
-.app-cont .filter-card .category-wrapper .cat-label .category-buttons .cat-btn:hover:not(.active) {
+.app-cont .filter-card .category-wrapper .category-buttons .cat-btn:hover:not(.active) {
     background: #e2eaf1;
     transform: translate(-1px);
 }
@@ -227,6 +250,11 @@ body {
     color: #2c577b;
 }
 
-.app-cont .product-grid{
-    
+.app-cont .error-loader{
+    /* display: none; */
+    text-align: center;
+    padding: 3rem;
+    font-size: 1.25rem;
+    color: #3b82f6;
+    font-weight: 900;
 }
