@@ -1,17 +1,107 @@
 [
-  { "id": 1, "name": "UltraLink Wireless Headphones", "category": "Audio", "price": 3499 },
-  { "id": 2, "name": "ErgoFlex Mechanical Keyboard", "category": "Peripherals", "price": 5899 },
-  { "id": 3, "name": "PulseRun Smartwatch", "category": "Wearables", "price": 2499 },
-  { "id": 4, "name": "VisionX 24 Monitor", "category": "Electronics", "price": 12499 },
-  { "id": 5, "name": "Nordic Chill Bluetooth Speaker", "category": "Audio", "price": 1899 },
-  { "id": 6, "name": "CrystalClear Webcam 4K", "category": "Peripherals", "price": 5999 },
-  { "id": 7, "name": "DeskMate RGB Mouse", "category": "Peripherals", "price": 1199 },
-  { "id": 8, "name": "AeroCharge Power Bank 20000mAh", "category": "Accessories", "price": 1999 },
-  { "id": 9, "name": "ZenBook Slim Laptop Sleeve", "category": "Accessories", "price": 899 },
-  { "id": 10, "name": "NoiseGuard ANC Earbuds", "category": "Audio", "price": 4299 },
-  { "id": 11, "name": "FitSphere Fitness Tracker", "category": "Wearables", "price": 1799 },
-  { "id": 12, "name": "ArcStylus Drawing Tablet", "category": "Electronics", "price": 8999 },
-  { "id": 13, "name": "MechPad Gaming Mousepad", "category": "Accessories", "price": 599 },
-  { "id": 14, "name": "StudioMic Condenser", "category": "Audio", "price": 6499 },
-  { "id": 15, "name": "UltraView Curved 30", "category": "Electronics", "price": 18999 }
+  {
+    "id": 1,
+    "name": "UltraLink Wireless Headphones",
+    "category": "Audio",
+    "price": 3499,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 2,
+    "name": "ErgoFlex Mechanical Keyboard",
+    "category": "Peripherals",
+    "price": 5899,
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 3,
+    "name": "PulseRun Smartwatch",
+    "category": "Wearables",
+    "price": 2499,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 4,
+    "name": "VisionX 24 Monitor",
+    "category": "Electronics",
+    "price": 12499,
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 5,
+    "name": "Nordic Chill Bluetooth Speaker",
+    "category": "Audio",
+    "price": 1899,
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 6,
+    "name": "CrystalClear Webcam 4K",
+    "category": "Peripherals",
+    "price": 5999,
+    "image": "https://images.unsplash.com/photo-1628126235206-5260b9ea6441?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 7,
+    "name": "DeskMate RGB Mouse",
+    "category": "Peripherals",
+    "price": 1199,
+    "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 8,
+    "name": "AeroCharge Power Bank 20000mAh",
+    "category": "Accessories",
+    "price": 1999,
+    "image": "https://images.unsplash.com/photo-1609592424109-dd9892f1b17c?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 9,
+    "name": "ZenBook Slim Laptop Sleeve",
+    "category": "Accessories",
+    "price": 899,
+    "image": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 10,
+    "name": "NoiseGuard ANC Earbuds",
+    "category": "Audio",
+    "price": 4299,
+    "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 11,
+    "name": "FitSphere Fitness Tracker",
+    "category": "Wearables",
+    "price": 1799,
+    "image": "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 12,
+    "name": "ArcStylus Drawing Tablet",
+    "category": "Electronics",
+    "price": 8999,
+    "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 13,
+    "name": "MechPad Gaming Mousepad",
+    "category": "Accessories",
+    "price": 599,
+    "image": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 14,
+    "name": "StudioMic Condenser",
+    "category": "Audio",
+    "price": 6499,
+    "image": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 15,
+    "name": "UltraView Curved 30",
+    "category": "Electronics",
+    "price": 18999,
+    "image": "https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?w=500&auto=format&fit=crop&q=60"
+  }
 ]

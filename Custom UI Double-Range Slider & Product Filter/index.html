@@ -9,13 +9,13 @@
   <body>
     <div class="app-cont">
       <div class="shop-head">
-        <h1 class="">🎯 VeuZen Essentials</h1>
-        <p>Smart double-Range Slider * debounced search & category Filter</p>
+        <h1 class="">🎯 Filter Runtime</h1>
+        <p>High-performance product filtering · double-range slider · debounced search</p>
       </div>
 
 
       <div class="error-cont" id="errorAlert">
-        <span id="error-message">Api called faild.</span>
+        <span id="errorMessage">Api called faild.</span>
         <button id="retryBtn" class="retry-btn">Retry Fetch</button>
       </div>
 
@@ -84,7 +84,9 @@
       <!-- async loader -->
       <div id="loadingError" class="error-loader"> Loading Product Database...  Please wait...</div>
 
-      <div class="product-grid" id="productGrid"></div>
+      <div class="product-grid" id="productGrid">
+       
+      </div>
     </div>
 
     <script src="script.js"></script>
