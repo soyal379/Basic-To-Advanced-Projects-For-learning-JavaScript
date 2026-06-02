@@ -45,7 +45,7 @@ async function fetchProducts() {
             throw new Error(`HTTP network error! status code: ${response.status}`)
         }
 
-        await new Promise(resolve => setTimeout(resolve, 2000))
+        await new Promise(resolve => setTimeout(resolve, 1200))
 
         const data = await response.json()
 
@@ -289,6 +289,7 @@ async function init(){
     bindSliderEvent()
     initSearch()
     STATE.ui.resetBtn.addEventListener('click', resetAllFilters)
+
     if (STATE.ui.retryBtn) STATE.ui.retryBtn.addEventListener('click', () => fetchProducts())
 
     await fetchProducts()
